@@ -40,7 +40,6 @@ header{
 
 }
 
-
 .label .ball {
   background-color: #fff;
   border-radius: 50%;
@@ -677,4 +676,70 @@ header{
 		font-size:14px;
 	}
     
+}
+
+.home{
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  background:url(logo.jpeg) no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.home .content{
+  max-width: 60rem;
+}
+
+.home .content h3{
+  font-size: 6rem;
+  text-transform: uppercase;
+  color:white;
+}
+
+.home .content p{
+  font-size: 2rem;
+  font-weight: lighter;
+  line-height: 1.8;
+  padding:1rem 0;
+  color:white;
+}
+
+.about .row{
+  display: flex;
+  align-items: center;
+  background:var(--black);
+  flex-wrap: wrap;
+}
+
+.about .row .image{
+  flex:1 1 45rem;
+}
+
+.about .row .image img{
+  width: 100%;
+}
+.about .row .content{
+  flex:1 1 45rem;
+  padding:2rem;
+}
+
+.about .row .content h3{
+  font-size: 3rem;
+  color:white;
+}
+
+.about .row .content p{
+  font-size: 1.6rem;
+  color:white;
+  padding:1rem 0;
+  line-height: 1.8;
+}
+
+.btn{
+    color: #DDD;
+}
+
+.heading{
+  color: #DDD;
 }
