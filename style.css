@@ -14,6 +14,68 @@ body {
 .clearfix {
     zoom: 1;
 }
+header{
+   margin-top: 50px; 
+}
+
+.dark {
+  background-color: #e67e22;
+
+}
+
+
+
+.label {
+  background-color: #373a3c;
+  border-radius: 50px;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5px;
+  position: relative;
+  height: 15px;
+  width: 39px;
+  transform: scale(1.5);
+
+}
+
+
+.label .ball {
+  background-color: #fff;
+  border-radius: 50%;
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  height: 22px;
+  width: 22px;
+  transform: translateX(0px);
+  transition: transform 0.4s linear;
+}
+
+.checkbox:checked+.label .ball {
+  transform: translateX(24px);
+}
+
+.fa-moon {
+  color: white
+}
+
+.fa-sun {
+  color: rgba(255, 255, 123, 0.945);
+}
+
+
+.ball-move {
+  left: calc(100% - 40px);
+  background-color: white;
+
+}
+
+.checkbox {
+  visibility: hidden;
+
+}
 
 .container {
     position: relative;
