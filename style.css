@@ -26,7 +26,7 @@ header{
 
 
 .label {
-  background-color: #373a3c;
+  background-color: #1e6443;
   border-radius: 50px;
   cursor: pointer;
   display: flex;
@@ -139,7 +139,7 @@ header{
   text-decoration: none;
   padding: 12px 20px;
   color: #EEE;
-  background: #373a3c;
+  background: #1e6443;
   /*text-align: center;
   border-right: 1px solid #E7E7E7;*/
   
