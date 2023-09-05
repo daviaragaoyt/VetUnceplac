@@ -6,70 +6,41 @@
   padding: 0;
   /*para configurar uma ou mais das propriedades de contorno*/
   outline: 0;
+
+
 }
 
 body {
   /*definindo a fonte de todo o nosso body*/
   font-family: "Roboto", sans-serif;
   margin: 0;
-}
-
-.dark {
-  background-color: #1e6443;
+  justify-content: space-around;
+  width: 100%;
 
 }
 
-.label {
-  background-color: #1e6443;
-  border-radius: 50px;
-  cursor: pointer;
+.turminha {
+  margin-top: 10px;
+  width: 70%;
+  border: 5px solid #e67e22;
+
+}
+
+.turminha:hover {
+  border: 5px solid #1e6443;
+  border-radius: 25px;
+  transition: 1s;
+}
+
+.logo {
   display: flex;
-  padding: 5px;
-  position: flex;
-  width: 40px;
-  height: 15px;
-  transform: scale(1.5);
-  justify-content: space-evenly;
-  align-items: center;
-
-
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  top: 5px;
+  left: 50px;
 }
 
-.label .ball {
-  background-color: #fff;
-  border-radius: 50%;
-  position: absolute;
-  top: 2px;
-  left: 2px;
-  height: 22px;
-  width: 22px;
-  transform: translateX(0px);
-  transition: transform 0.4s linear;
-}
-
-.checkbox:checked+.label .ball {
-  transform: translateX(24px);
-}
-
-.fa-moon {
-  color: white
-}
-
-.fa-sun {
-  color: rgba(255, 255, 123, 0.945);
-}
-
-
-.ball-move {
-  left: calc(100% - 40px);
-  background-color: white;
-
-}
-
-.checkbox {
-  visibility: hidden;
-
-}
 
 li {
   /*retirando as bolinhas das nossas listas*/
@@ -91,6 +62,7 @@ li {
   /*espaçamento superior*/
   height: 5px;
   background-color: #e67e22;
+
 }
 
 .header-menu nav {
@@ -106,6 +78,7 @@ li {
   /*espaçamento entre eles seja igual*/
   width: 50%;
   align-items: center;
+  padding-right: 50px;
 }
 
 /*pegando os itens com tag a de dentro da nossa lista*/
@@ -113,6 +86,7 @@ li {
   color: #fff;
   font-size: 18px;
   text-decoration: inherit;
+  padding-right: 5px;
 }
 
 .principal {
@@ -140,6 +114,7 @@ centro do browser. O container é invisível.*/
 }
 
 .subcontainer-principal {
+
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -193,6 +168,8 @@ centro do browser. O container é invisível.*/
 
 .article-lista {
   display: flex;
+
+  margin-left: 0px;
   margin-top: 100px;
   margin-bottom: 100px;
   flex-direction: column;
@@ -209,6 +186,7 @@ centro do browser. O container é invisível.*/
   height: 30vh;
   display: flex;
   align-items: center;
+  text-align: center;
 }
 
 .lista-footer li {
@@ -241,12 +219,21 @@ centro do browser. O container é invisível.*/
 }
 
 .link-cad {
-  background-color: rgba(241, 241, 241, 0);
-  border:5px solid #e67e22;
+  color: #eaeaea;
+  background-color: #e67e22;
+  border: 5px solid #e67e22;
 }
 
-.link-cad:hover{
-    border:5px solid #1e6443;
-    border-radius:5px;
-    transition: 0.5s;
+.link-cad:hover {
+  background-color: #1e6443;
+  border: 5px solid #1e6443;
+  border-radius: 5px;
+  transition: 0.5s;
+}
+
+@media screen and(max-width:768px) {
+  body {
+    width: 100%;
+    flex-direction: column;
+  }
 }
