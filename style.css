@@ -231,6 +231,15 @@ centro do browser. O container é invisível.*/
   transition: 0.5s;
 }
 
+.Alert{
+ width: 100px;
+  margin-bottom: 5px;
+  font-size: 22px;
+  color: red;
+  border: solid red;
+  font-weight: 700;
+}
+
 @media screen and(max-width:768px) {
   body {
     width: 100%;
