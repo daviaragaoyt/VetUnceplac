@@ -16,13 +16,14 @@ body {
   margin: 0;
   justify-content: space-around;
   width: 100%;
+  
 
 }
 
 .turminha {
   margin-top: 10px;
   width: 70%;
-  border: 5px solid #e67e22;
+  border: 5px solid #d68749;
 
 }
 
@@ -61,7 +62,7 @@ li {
   padding-top: 32px;
   /*espaçamento superior*/
   height: 5px;
-  background-color: #e67e22;
+  background-color: #3b7355;
 
 }
 
@@ -182,7 +183,7 @@ centro do browser. O container é invisível.*/
 }
 
 .footer {
-  background-color: #e67e22;
+  background-color: #3b7355;
   height: 30vh;
   display: flex;
   align-items: center;
@@ -220,8 +221,8 @@ centro do browser. O container é invisível.*/
 
 .link-cad {
   color: #eaeaea;
-  background-color: #e67e22;
-  border: 5px solid #e67e22;
+  background-color: #d68749;
+  border: 5px solid #d68749;
 }
 
 .link-cad:hover {
